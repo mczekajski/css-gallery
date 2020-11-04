@@ -1,23 +1,56 @@
+<!-- 
+    
+    This site uses Lightbox2 by Lokesh Dhackar
+    Lightbox2 is licensed under The MIT License.
+
+    100% Free. Lightbox is free to use in both commercial and non-commercial work.
+    Attribution is required. This means you must leave my name, my homepage link, and the license info intact. None of these items have to be user-facing and can remain within the code.
+
+    https://lokeshdhakar.com/projects/lightbox2/
+
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-    <h1>GALERIA</h1>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Gallery</h1>
     <section>
-        <div><img src="imgs/img1.jpg" alt=""></div>
-        <div><img src="imgs/img2.jpg" alt=""></div>
-        <div><img src="imgs/img3.jpg" alt=""></div>
-        <div><img src="imgs/img4.jpg" alt=""></div>
-        <div><img src="imgs/img4.jpg" alt=""></div>
-        <div><img src="imgs/img3.jpg" alt=""></div>
-        <div><img src="imgs/img2.jpg" alt=""></div>
-        <div><img src="imgs/img1.jpg" alt=""></div>
-        
+      <a href="imgs/img1.jpg" data-lightbox="birds">
+        <img src="imgs/img1.jpg" alt="Description of an image should be here"
+      /></a>
+      <a href="imgs/img2.jpg" data-lightbox="birds">
+        <img src="imgs/img2.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img3.jpg" data-lightbox="birds">
+        <img src="imgs/img3.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img4.jpg" data-lightbox="birds">
+        <img src="imgs/img4.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img4.jpg" data-lightbox="birds">
+        <img src="imgs/img4.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img3.jpg" data-lightbox="birds">
+        <img src="imgs/img3.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img2.jpg" data-lightbox="birds">
+        <img src="imgs/img2.jpg" alt="Description of an image should be here" />
+      </a>
+      <a href="imgs/img1.jpg" data-lightbox="birds">
+        <img src="imgs/img1.jpg" alt="Description of an image should be here" />
+      </a>
     </section>
-    </body>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+  </body>
 </html>
